@@ -6,8 +6,8 @@ body {
     background-color: #076d81;
 }
 
-img {
-    border-color: #74a57f;
+#headshot {
     border-radius: 50%;
-    margin: 4rem;
+    border-color: #74a57f;
+    padding: 10rem;
 }
