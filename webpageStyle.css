@@ -6,8 +6,47 @@ body {
     background-color: #076d81;
 }
 
-#headshot {
-    border: 20rem;
+img {
+    border: 20px solid #074F57;
     border-radius: 50%;
-    border-color: #74a57f;
+    padding: 0px;
+    display: flex;
+    justify-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    color: #052d31;
+    text-align: center;
+    word-wrap: break-word;
+    width: 450px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.left {
+    width: 450px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.right {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.big-picture {
+    display: flex;
+    justify-content: space-evenly;
 }
